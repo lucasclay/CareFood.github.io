@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+
+body {
+    text-align: justify;
+    background-color: #676eb0;
+    font-family: 'Maven Pro', sans-serif;
+    background: url("../Imgs/wallpaper\ 2.jpg");
+    background-size: cover;
+
+}
+
+div#interface {
+    font-family: 'Maven Pro', sans-serif;
+    display: block;
+    background-color: white;
+    margin: -10px 100px 0px 100px;
+    width: 90%;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* Formatação cabeçalho */
+
+header {
+    background-color: #676eb0;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    bottom: 30px;
+}
+
+#logo-cabecalho {
+    width: 220px;
+    height: 220px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+img#mao-cora {
+    position: relative;
+    display: block;
+    float: right;
+    width: 80px;
+    height: 80px;
+    top: 25px;
+    right: 180px;
+}
+
+ 
+
+/* Formatação menu */
+
+nav#menu li#teste {
+    margin-left: -40px;
+}
+
+nav#menu li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 2px 0px 2px;
+    background-color: rgb(0, 52, 98);
+    padding: 15px;
+    text-transform: uppercase;
+    transition: color 1s;   
+}
+
+nav#menu ul {
+    position: relative;
+    background-color: #325d9d;
+}
+
+nav#menu ul a {
+    text-decoration: none;
+    color: white;
+}
+
+nav#menu ul a:hover {
+    color: #87ceeb;
+    text-decoration: none;
+}
+
+
+
+/* Formatação do rodapé */
+
+footer {
+    background-color: #676eb0;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    clear: both;
+    position: relative;
+    top: 10px;
+    
+}
+
+#logo-rodape {
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    
+}
+
+footer div ul#icones img.icon {
+    width: 55px;
+    height: 55x;
+}
+
+ul#icones li {
+    padding: 3px;
+    display: inline-block;
+    position: relative;
+    right: 46px;
+    top: 35px;
+
+}
+
+ul#icones {
+    float: right;
+}
+
+footer li{
+    color: #fffafa;
+    font-size: 19px;
+    
+    float: right;    
+    text-shadow: 1px 1px 5px black;
+}   
+
+#contatos{
+    position: relative;
+}
+
+li#what {
+    margin-top: -90px;
+    margin-right: 4%;
+}
+
+li#gmail{
+    margin-top: -50px;
+    margin-right: 1%;
+}
+
+img#email {
+    
+    width: 27px; 
+    
+    
+}
+
+img#wpp{
+    float: left;
+    width: 27px; 
+    padding-right: 2px;
+    top: 10;
+
+}
+
+/* Formtação Texto */
+
+div.textos p {
+    margin: 0px 70px 0px 40px;
+    font-size: 17px;
+}
+
+div.textos {
+    width: 100%;
+}
+
+div.textos a {
+    text-decoration: none;
+    color: black;
+}
+
+div.textos h2 {
+    text-align: left;
+    text-transform: uppercase;
+    
+}
+.container2 > h2{
+    text-align: center;
+}
+
+.hfrase{
+    position: relative;
+    float: right;
+    width: 400px;
+    color: white;
+    text-transform: capitalize;
+
+}
+
+p#frase{
+    top: 125px;
+    left: 50px;
+}
+
+p#clar{
+    width: 10%;
+    top: 200px;
+    left: 470px;
+
+}
+
+/* Foormatação Divisões */
+
+
+
+section#corpo{
+    display: block;
+    width: 50%;
+    float: left;
+    border-right:  1px #606060 solid;
+    
+}
+
+aside#direita {
+    display: block;
+    width: 50%;
+    float: right;
+    left: 10px;
+    top: 80px;
+    bottom: 20px;
+    position: relative;
+}
+
+img#doar-faz-bem {
+    display: block;
+    width: 60%;
+    margin-left: 20%;
+     
+}
+
+
+
+
+
+    
