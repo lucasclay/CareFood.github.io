@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+@import url("/Fontes/Carton_Six.ttf");
+
+@font-face {
+    font-family: 'Carton Six Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Carton Six Regular'), url('/Fontes/Carton_Six.ttf') format('woff');
+}
 
 body {
     text-align: justify;
     background-color: #676eb0;
     font-family: 'Maven Pro', sans-serif;
-    background: url("../Imgs/wallpaper\ 2.jpg")no-repeat;
     background-size: cover;   
     
 }
@@ -14,58 +21,93 @@ div#interface {
     display: block;
     background-color: white;
     margin: -10px 100px 0px 100px;
-    width: 90%;
-    padding: 20px;
+    width: 100%;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     margin-left: auto;
     margin-right: auto;
-
+    background-size: cover;
 }
 
 /* Formatação cabeçalho */
 
-header {
-    background-color: #676eb0;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    bottom: 30px;
-}
-
 #logo-cabecalho {
-    width: 220px;
-    height: 220px;
-    margin-left: 20px;
-    margin-bottom: 10px;
+    width: 10%;
+    margin: 20px 0px 20px 10px;
+    position: relative;
+    
 }
 
-img#mao-cora {
+#menu {
+    background-color: #0669b2;
+    margin-bottom: 1px;
+    
+    
+}
+
+div#fundo {
+    margin-bottom: -270px;
+}
+
+#fundo-laranja {
+    width: 100%;
+    box-shadow: 3px 3px 5px black;
+    background-image: url("Imgs/3.png")no-repeat;
+    background-size: cover;
     position: relative;
-    display: block;
-    float: right;
-    width: 80px;
-    height: 80px;
-    top: 25px;
-    right: 180px;
+}
+
+#carefood {
+    position: relative;
+    left: 27%;
+    top: -390px;
+    
 }
 
 /* Formatação menu */
-
-nav#menu li#teste {
-    margin-left: -40px;
-}
-
-nav#menu li {
-    list-style: none;
-    display: inline-block;
-    margin: 0px 2px 0px 2px;
-    background-color: rgb(0, 52, 98);
-    padding: 15px;
-    text-transform: uppercase;
-    transition: color 1s;   
+nav#menu {
+    position: relative;
+    z-index: 2;
+    transition: 2s;
+    
 }
 
 nav#menu ul {
-    position: relative;
-    background-color: #325d9d;
+    margin-right: 0px;
+    float: right;
+    
+}
+
+nav#menu a:hover {
+    color: rgb(0, 52, 98);
+}
+
+nav#menu .display a:hover {
+    text-decoration: none;
+    color: rgb(0, 52, 98);
+}
+
+nav#menu .display:hover {
+    background-color: white;
+}
+
+nav#menu li {
+    font-family: 'Carton Six Regular';
+    font-size: 15px;
+    list-style: none;
+    margin: 55px 2px 0px 2px;
+    padding: 5px 20px 5px 20px;
+    text-transform: uppercase;
+    transition: color 2s; 
+    border-radius: 5px;
+    display: inline-block;
+    
+
+}
+
+.display {
+    background-color: rgb(0, 52, 98);
+    padding: 10px;
+    border-radius: 5px;
 }
 
 nav#menu ul a {
@@ -73,86 +115,86 @@ nav#menu ul a {
     color: white;
 }
 
-nav#menu ul a:hover {
-    color: #87ceeb;
-    text-decoration: none;
-}
+/*Menu Fixo*/
 
-.menu-fixed-top {
+.menu-fixed-top img {
     position: fixed !important;
-    position: relative;
-    top: 0px;
-    width: 87%;
-
+    transition: 2s !important;
+    background-color: rgb(0, 52, 98) !important;
 }
+.display2 {
+    float: left !important;
+}
+
+.logo2 {
+    width: 205% !important;
+    transition: 2s;
+    margin-left: -52.5% !important;
+    background-color: rgb(0, 52, 98);
+    position: relative;
+    padding: 0px 100% 0px 100%;
+    margin-top: 8px !important;
+}
+
+.menu2-2{
+    transition: 2s !important;
+    float: left !important;
+    margin-top: 50px;
+    position: fixed !important;
+}
+
+.test2 {
+    display: block !important;
+}
+
+/*.fundo-logo2 {
+    background-color: rgb(0, 52, 98);
+    padding: 100px;
+}*/
 
 /* Formatação do rodapé */
 
 footer {
-    background-color: #676eb0;
+    background-color: #0669b2;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     clear: both;
-    position: relative;
-    top: 10px;
-    
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
 }
 
 #logo-rodape {
-    width: 200px;
-    height: 200px;
-    margin-left: 20px;
+    width: 10%;
+    margin-left: 30px;
+}
+
+
+
+ul#icones {
     
 }
 
-footer div ul#icones img.icon {
-    width: 55px;
-    height: 55x;
+footer li{
+    color: #fffafa;
+    font-size: 19px; 
+    text-shadow: 1px 1px 5px black;
+}   
+
+footer ul#icones img.icon {
+    width: 45px;
+    height: 45px;
 }
 
 ul#icones li {
     padding: 3px;
     display: inline-block;
-    position: relative;
-    right: 46px;
-    top: 35px;
-
-}
-
-ul#icones {
-    float: right;
-}
-
-footer li{
-    color: #fffafa;
-    font-size: 19px;
-    
-    float: right;    
-    text-shadow: 1px 1px 5px black;
-}   
-
-#contatos{
-    position: relative;
-}
-
-li#what {
-    margin-top: -90px;
-    margin-right: 4%;
-}
-
-li#gmail{
-    margin-top: -50px;
-    margin-right: 1%;
 }
 
 img#email {
-    
     width: 27px; 
-    padding-right: px;
-    
 }
 
 img#wpp{
-    float: left;
     width: 27px; 
     padding-right: 2px;
     top: 10;

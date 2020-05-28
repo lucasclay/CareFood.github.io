@@ -91,8 +91,92 @@ button, select, label.checkbox {
     cursor: pointer;
 }
 
+/* Rodapé */
+
+footer {
+    background-color: #0669b2;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    clear: both;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+#logo-rodape {
+    width: 10%;
+    margin-left: 30px;
+}
 
 
+
+ul#icones {
+    
+}
+
+footer li{
+    color: #fffafa;
+    font-size: 19px; 
+    text-shadow: 1px 1px 5px black;
+}   
+
+footer ul#icones img.icon {
+    width: 45px;
+    height: 45px;
+}
+
+ul#icones li {
+    padding: 3px;
+    display: inline-block;
+}
+
+
+#contatos{
+    
+}
+
+li#what {
+}
+
+li#gmail{
+    
+}
+
+img#email {
+    width: 27px; 
+    
+}
+
+img#wpp{
+    width: 27px; 
+    padding-right: 2px;
+    top: 10;
+
+}
+
+/* Cabeçalho */
+
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+
+body {
+    text-align: justify;
+    background-color: #676eb0;
+    font-family: 'Maven Pro', sans-serif;
+    background-size: cover;   
+    
+}
+
+div#interface {
+    font-family: 'Maven Pro', sans-serif;
+    display: block;
+    background-color: white;
+    margin: -10px 100px 0px 100px;
+    width: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+
+}
 
 
 
