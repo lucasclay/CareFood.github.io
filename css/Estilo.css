@@ -6,7 +6,7 @@
     font-family: 'Carton Six Regular';
     font-style: normal;
     font-weight: normal;
-    src: local('Carton Six Regular'), url('/Fontes/Carton_Six.ttf') format('woff');
+    src: local('Carton Six Regular'), url('../Fontes/Carton_Six.ttf') format('woff');
 }
 
 body {
@@ -49,7 +49,7 @@ div#fundo {
 #fundo-laranja {
     width: 100%;
     box-shadow: 3px 3px 5px black;
-    background-image: url("Imgs/3.png")no-repeat;
+    background-image: url("../Imgs/3.png")no-repeat;
     background-size: cover;
     position: relative;
 }
@@ -317,7 +317,7 @@ img#ods {
 div#locais {
     box-shadow: 3px 3px 5px black;
     border: 3px solid white;
-    background-image: url('/Imgs/moldur-locais.png');
+    background-image: url('../Imgs/moldur-locais.png');
     background-position-x: 4px;
     margin: 0px 30px 30px 30px;
     padding: 0% 30% 2% 30%;
@@ -325,7 +325,7 @@ div#locais {
 
 div#quem-somos {
     border: 3px solid white;
-    background-image: url('/Imgs/quem somos/fundo.png');
+    background-image: url('../Imgs/quem somos/fundo.png');
     padding: 0% 30% 0% 30%;
     margin: 0px 30px 0px 30px;
     box-shadow: 3px 3px 5px black;
@@ -335,7 +335,7 @@ div#quem-somos {
 
 div#doacoes {
     border: 3px solid white;
-    background-image: url('/Imgs/fundo\ doacoes.png');
+    background-image: url('../Imgs/fundo doacoes.png');
     background-position: 0.1px;
     background-position-x: -3px;
     padding: 10% 30% 30px 30%;
@@ -349,7 +349,7 @@ div#doacoes {
 div#fale-conosco {
     box-shadow: 3px 3px 5px black;
     border: 3px solid white;
-    background-image: url('/Imgs/fale conosco/fundo-de-muro.png');
+    background-image: url('../Imgs/fale conosco/fundo-de-muro.png');
     padding: 0% 30% 30px 30%;
     margin: 0px 30px 0px 30px;
 
