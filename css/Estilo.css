@@ -405,8 +405,8 @@ div#quem-somos img#victor {
     height: 56%;
     position: relative;
     float: left;
-    right: 400px;
-    top: 327px;
+    right: 412px;
+    top: 353px;
     margin-top: -350px;
 }
 
@@ -415,8 +415,8 @@ div#quem-somos img#gustavo {
     height: 50%;
     position: relative;
     float: left;
-    right: 184px;
-    top: 265px;
+    right: 200px;
+    top: 285px;
     margin-top: -300px;
 }
 
@@ -424,7 +424,7 @@ div#quem-somos img#lucas {
     width: 63%;
     height: 63%;
     position: relative;
-    left: 125%;
+    left: 126%;
     margin-top: -160%;
     margin-bottom: -400px;
 }
